@@ -26,7 +26,7 @@ const Login = () => {
             required
             className=" border-2 border-emerald-600 rounded-full py-3 px-5 text-xl outline-none bg-transparent placeholder:text-zinc-500 "
             type="email"
-            placeholder="email"
+            placeholder="Enter Email"
           />
           <input
             value={password}
@@ -36,10 +36,10 @@ const Login = () => {
             required
             className="  border-2 border-emerald-600 rounded-full py-3 px-5 text-xl outline-none bg-transparent placeholder:text-zinc-500 mt-4"
             type="password"
-            placeholder="enter password"
+            placeholder="Enter Password"
           />
-          <button className="  bg-emerald-600 rounded-full py-3 px-5 text-xl outline-none placeholder:text-zinc-500 mt-4">
-            Login
+          <button className="  bg-emerald-600 rounded-full py-3 px-5 text-xl outline-none placeholder:text-zinc-500 mt-4 shadow-md hover:bg-emerald-700 transition duration-300 ease-in-out">
+            Log In
           </button>
         </form>
       </div>
